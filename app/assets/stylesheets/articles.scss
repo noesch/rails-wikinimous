@@ -19,13 +19,27 @@
   border-bottom: solid 2px lightgrey;
 }
 
+.navbar a:visited {
+  color:lightgrey;
+}
+
+.navbar a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+
 a {
   text-decoration: none;
+  color: aqua;
+}
+
+a:visited {
+  color: blue;
 }
 
 a:hover {
-  color: black;
-  font-weight: bold;
+  color: aqua;
 }
 
  .btn {
