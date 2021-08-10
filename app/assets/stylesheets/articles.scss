@@ -2,14 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-body {
-  background-color: lightgrey;
-}
-
 .container {
   background-color: white;
   margin:auto;
-  width: 60%;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -18,7 +13,28 @@ body {
 .navbar {
   display: flex;
   background-color: white;
+  color: lightgrey;
   padding: 20px 50px;
-  text-decoration: none;
   justify-content: space-between;
+  border-bottom: solid 2px lightgrey;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+ .btn {
+   padding: 8px 16px;
+   background-color: yellowgreen;
+   color: black;
+ }
+
+ .footer {
+   display: flex;
+   justify-content: space-evenly;
+ }

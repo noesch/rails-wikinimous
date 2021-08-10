@@ -3,10 +3,16 @@
   <br>
   <p><%= @article.content %></p>
   <br>
-  <%= link_to "Edit Article", edit_article_path %>
-  <%= link_to "Delete #{@article.title}",
-              article_path(@article),
-              method: :delete,
-              data: { confirm: "Are you sure?" }
-  %>
+  <div class="footer">
+  <div class="btn">
+    <%= link_to "Edit Article", edit_article_path %>
+  </div>
+    <div class="btn">
+      <%= link_to "Delete #{@article.title}",
+                  article_path(@article),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" }
+      %>
+    </div>
+  </div>
 </div>
